@@ -5,6 +5,7 @@
       <list>
         <option value="$PROJECT_DIR$/springboot-mybatis/pom.xml" />
         <option value="$PROJECT_DIR$/springmvc/pom.xml" />
+        <option value="$PROJECT_DIR$/csrf/pom.xml" />
       </list>
     </option>
   </component>

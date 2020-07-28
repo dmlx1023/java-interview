@@ -6,17 +6,20 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="springmvc" />
         <module name="springboot-mybatis" />
+        <module name="csrf" />
+        <module name="springmvc" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="csrf" target="1.8" />
       <module name="springboot-mybatis" target="1.8" />
       <module name="springmvc" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="csrf" options="-parameters" />
       <module name="springboot-mybatis" options="-parameters" />
       <module name="springmvc" options="-parameters" />
     </option>
