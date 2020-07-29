@@ -4,15 +4,22 @@
     <meta charset="UTF-8">
     <title>Title</title>
     <script src="http://libs.baidu.com/jquery/2.0.0/jquery.min.js"></script>
+    <script src="http://www.demo.com:8081/h"></script>
+    <script type="text/javascript">
+        function getCors() {
+            $.get("http://www.demo.com:8081/h1", '',
+                function (data) {
+                    alert("Data Loaded: " + data);
+                })
+        };
+
+    </script>
 </head>
 <body>
-<img src="www.demo.com:8081/h" new onerror='www.demo.com:8081/h'>
+<img src="www.demo.com:8081/h">
 <h1>我我我我我我</h1>
 <table background="javascript:alert(/xss/)"></table>
-
+<button onclick="getCors()">测试</button>
 </body>
-<script>
 
-
-</script>
 </html>
