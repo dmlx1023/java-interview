@@ -8,12 +8,13 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class CSRFController {
     @RequestMapping("h")
-    @CrossOrigin
+    @CrossOrigin("*")
     public String h(){
         System.out.println("一个请求进入了啊");
         return "h";
 
     }
+    @CrossOrigin
     @RequestMapping("h1")
     public String jsonp(){
         JSONPObject json = new JSONPObject("random",Math.random());
