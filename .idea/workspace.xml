@@ -99,8 +99,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/csrf/src/test/java/com/zycat/csrf/CsrfApplicationTests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="51" column="32" lean-forward="true" selection-start-line="51" selection-start-column="32" selection-end-line="51" selection-end-column="32" />
+            <state relative-caret-position="213">
+              <caret line="45" column="5" lean-forward="true" selection-start-line="45" selection-start-column="5" selection-end-line="45" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -1052,7 +1052,7 @@
       <option name="presentableId" value="Default" />
       <updated>1595688054120</updated>
       <workItem from="1595688056847" duration="19341000" />
-      <workItem from="1595793321411" duration="27413000" />
+      <workItem from="1595793321411" duration="28005000" />
     </task>
     <servers />
   </component>
@@ -1089,7 +1089,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="46754000" />
+    <option name="totallyTimeSpent" value="47346000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -1555,8 +1555,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/csrf/src/test/java/com/zycat/csrf/CsrfApplicationTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="51" column="32" lean-forward="true" selection-start-line="51" selection-start-column="32" selection-end-line="51" selection-end-column="32" />
+        <state relative-caret-position="213">
+          <caret line="45" column="5" lean-forward="true" selection-start-line="45" selection-start-column="5" selection-end-line="45" selection-end-column="5" />
         </state>
       </provider>
     </entry>
